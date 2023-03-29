@@ -1,0 +1,74 @@
+/* css/style.css */
+body { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(imagen.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  
+    
+  }
+  
+  h1, h2 {
+   
+    z-index: 1;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+  }
+  h2 {
+    text-align: center;
+    font-family: 'Courier', sans-serif;
+    animation: rainbow 5s linear infinite;
+  
+  }
+  
+  
+  @keyframes rainbow {
+    0% {
+      color: rgb(5, 4, 4);
+    }
+    20% {
+      color: rgb(255, 0, 0);
+    }
+    40% {
+      color: rgb(4, 0, 255);
+    }
+    60% {
+      color: green;
+    }
+    80% {
+      color: rgb(123, 255, 0);
+    }
+    100% {
+      color: rgb(200, 255, 0);
+    }
+  }
+  
+  
+  
+  .container-fluid {
+    background-color: #0379ff;
+    padding: 1px;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  button:hover {
+    box-shadow: 0 0 8px 8px #76ff3b;
+  }
+
+  button:active {
+    transform: scale(0.9);
+  }
+
+ 
+  
+
+
